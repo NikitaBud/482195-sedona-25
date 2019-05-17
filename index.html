@@ -114,9 +114,33 @@
     		</p>
     	</section>
     	<section class="dropdown">
-    		<a class="find" href="#">Поиск гостиницы в Седоне</a>
+    		<button class="modal-open" type="button">
+          		Поиск гостиницы в Седоне
+        	</button>
      		<!-- Здесь будет форма-->
-    		<a class="search" href="#">Найти</a>
+     		<form action="/echo" method="post">
+     			<div class="two-third-width">
+          			<label>Дата заезда:
+          			<input type="text" name="arrival" value="24 апреля">
+          			</label>
+        		</div>
+        		<div class="two-third-width">
+          			<label>Дата выезда:
+          			<input type="text" name="date of departure" value="4 июля 2017">
+          			</label>
+        		</div>
+        		<div class="half-width">
+          			<label>Взрослые:
+          			<input type="text" name="adults" value="2">
+          			</label>
+        		</div>
+        		<div class="half-width">
+          			<label>Дети:
+          			<input type="number" name="children" value="0">
+          			</label>
+        		</div>
+     		</form>
+    		<button class="search" type="submit">Найти</button>
     	</section>
     	<div>
     		<img src="img/map.png" alt="Метка на карте с местом расположения Седоны">
