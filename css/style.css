@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "PT Sans", Calibri, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+
+    background-color: #ffffff;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.inner-page {
+	font-size: 14px;
+	line-height: 21px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+.filter {
+	background-color: #8b4513;
+}
+
+.filter ul {
+    list-style: none;
+
+    font-size: 14px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.filter fieldset {
+    border: none;
+}
+
+.filter legend {
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.sorting-sum {
+	font-size: 21px;
+	line-height: 26px;
+}
+
+.sorting-range {
+	font-size: 12px;
+	line-height: 18px;
+
+}
+
+.sorting-range-list {
+	list-style: none;
+}
+
+.sorting-range-list a:hover{
+	color: #81b3d2;
+	background-color: #ffffff;
+}
+
+.sorting-range-list a:focus{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+.sorting-range-list a{
+	font-size: 12px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.sorting-range-list a.active{
+	color: #81b3d2;
+}
+
+.results-description {
+	list-style: none;
+}
+
+.results-item {
+	background-color: #ffffff;
+}
+
+.results-item a {
+	color: #000000;
+}
+
+.results-item h3 {
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.results-item span {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: lighter;
+} 
+
+.rating-stars {
+	list-style: none;
+	color: #81b3d2;
+}
+
+
+
+
+
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+    background-color: #ffffff;
+    color: #81b3d2;
+}
+
+.site-navigation a:focus,
+.user-navigation a:focus {
+	background-color: #ffffff;
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation-current a {
+	color: #766357;
+}
+
+.heading {
+	text-align: center;
+}
+
+.slogan{
+	font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.reason {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
+} 
+
+.features-list {
+    list-style: none;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+.feature-item h3 {
+	font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.feature-item p {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.feature-item b {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.feature-item.blue-back {
+    background-color: #81b3d2;
+}
+
+.feature-item.blue-back h3 {
+	font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.feature-item.blue-back p {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.feature-item.blue-back b {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.feature-item.gray-back {
+    background-color: #eeeeee;
+}
+
+.aside {
+    list-style: none;
+
+    background-color: #ffffff;
+}
+
+.proposals {
+	text-align: center;
+
+	background-color: #ffffff;
+}
+
+.proposals h2 {
+	font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.proposals p {
+	font-weight: lighter;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.dropdown {
+	text-align: center;
+
+	background-color: #ffffff;
+
+	font-size: 14px;
+    font-weight: bold;
+	color: #000000;
+}
+
+.two-third-width input[type="text"] {
+    font: inherit;
+
+    background-color: #f2f2f2;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+.two-third-width input:focus {
+	background-color: transparent;
+    border: solid 2px #e5e5e5;
+}
+
+.half-width input {
+    font: inherit;
+
+    background-color: #f2f2f2;
+    border-color: transparent;
+}
+
+
+
+.main-footer {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social {
+  list-style: none;
+}
+
+.footer-social a {
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.footer-social a:hover {
+	background-color: ##669ec0;
+    color: #ffffff;
+}
+
+.footer-social a:focus {
+	background-color: ##5496bd;
+    color: #rgba(255, 255, 255, 0.3);
+}
+
+.visitsedona {
+	font-size: 21px;
+}
+
+.social-button {
+  color: #81b3d2;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright b {
+	color: #000000;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.footer-copyright a:hover {
+	background-color: #ffffff;
+    color: #000000;
+}
+
+.footer-copyright a:focus {
+	background-color: #ffffff;
+	color: #000000;
+}
